@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container {
+.my_container {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -26,10 +26,11 @@
 
 .item .text {
     position: absolute;
-    right: 20px;
-    bottom: 20px;
-    text-align: right;
+    right: 0;
+    bottom: 0;
     color: white;
+    background-color: rgba(53, 53, 53, 0.4);
+    height: 40%;
 }
 
 .thumbs {
@@ -51,7 +52,7 @@
 }
 
 .thumb.active {
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
     opacity: 1;
 }
 
